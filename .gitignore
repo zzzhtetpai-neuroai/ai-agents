@@ -2,3 +2,8 @@
 .env
 __pycache__/
 *.pyc
+*.pdf
+chroma.sqlite3
+langflow/menu/
+langflow/RAG/menu/
+langflow/[0-9a-f]*-*-*-*-*/
