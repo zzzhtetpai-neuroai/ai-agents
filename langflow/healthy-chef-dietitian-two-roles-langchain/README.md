@@ -28,3 +28,6 @@ python healthy_chef_adversarial.py
 ```
 
 Try inputs like "chocolate cake" or "chicken, rice, broccoli". Stop with Ctrl+C.
+
+## Langflow flow
+![Langflow flow](langflow-flow.png)

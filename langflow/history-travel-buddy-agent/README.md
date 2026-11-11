@@ -23,3 +23,6 @@ Needs `OPENAI_API_KEY` and `SERP_API_KEY` in a `.env` file. Set `verbose=True` t
 
 ## Reference
 Grokking AI Applications
+
+## Langflow flow
+![Langflow flow](langflow-flow.png)

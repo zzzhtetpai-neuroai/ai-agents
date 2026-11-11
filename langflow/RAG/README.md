@@ -27,3 +27,6 @@ python pizzamate_rag.py
 ```
 Place a PDF named `Lu Sule Pizzeria - Info and Menu.pdf` in this folder first (not included in the repo).
 Delete the `menu/` folder to rebuild the database after changing the PDF.
+
+## Langflow flow
+![Langflow retrieval flow](langflow-retrieval.png)

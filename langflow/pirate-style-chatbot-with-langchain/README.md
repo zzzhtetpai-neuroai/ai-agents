@@ -27,3 +27,6 @@ python pirate_chatbot_with_memory.py
 ```
 
 Test memory: tell it your name, then ask "what's my name?" Stop with Ctrl+C.
+
+## Langflow flow
+![Langflow flow](langflow-flow.png)
