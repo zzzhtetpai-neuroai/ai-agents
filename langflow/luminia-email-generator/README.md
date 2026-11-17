@@ -37,3 +37,17 @@ Needs `LANGFLOW_URL`, `LANGFLOW_FLOW_ID`, `LANGFLOW_API_KEY` in a `.env` file, L
 
 ## Reference
 Learning source: Grokking AI Applications
+
+## Langflow flow screenshot
+![Langflow flow](langflow-flow.png)
+
+## FastAPI version (`luminia_email_api.py`)
+The same email writer as its own HTTP API, with no Langflow needed. FastAPI exposes a `POST /generate-email` endpoint that takes a customer profile and returns `{"subject", "body"}`.
+
+```bash
+uvicorn luminia_email_api:app --reload
+```
+Then open http://localhost:8000/docs to try it in the browser. Needs `OPENAI_API_KEY` in `.env` and the guidelines PDF in this folder.
+
+![FastAPI docs](fastapi-docs.png)
+![FastAPI response](fastapi-response.png)
